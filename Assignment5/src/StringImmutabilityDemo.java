@@ -16,7 +16,7 @@ public class StringImmutabilityDemo {
 	public static void main(String[] args) {
 		
 		//String literal/constant
-		String str1 = "Sridevi";
+		String str1 = "Karikalan";
 		
 		str1.substring(0, 3);
 		System.out.println("substring : "+str1); // ?? Sridevi - since string is immutable it is not going to modify the original string Sridevi
